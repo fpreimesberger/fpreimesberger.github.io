@@ -131,14 +131,14 @@ body {
 .iconz {
   margin: 7px 7px 0 0;
   padding: 0;
-  opacity: 0.9;
+  opacity: 0.8;
   /* position: absolute; */
   transition: 0.9s ease;
   z-index: 70;
 }
 .iconz:hover {
   opacity: 1.0;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 .icons:hover {
   opacity: 1.0;
@@ -238,7 +238,7 @@ input:focus::-moz-placeholder { color:transparent; }
 input:focus:-ms-input-placeholder { color:transparent; }
 .submit-button {
   background-color: #0d0d0d;
-  opacity: 0.7;
+  opacity: 0.8;
   border-radius: 5px;
   width: 110px;
   text-align: center;
@@ -249,7 +249,7 @@ input:focus:-ms-input-placeholder { color:transparent; }
   text-decoration: none;
   margin: 20px 0 2px;
   cursor: pointer;
-  z-index = 1000;
+  z-index: 1000;
   transition: 0.9s ease;
 }
 .submit-button:hover {
@@ -333,7 +333,8 @@ h3 {
 }
 h4 {
   color: #0d0d0d;
-  font-family: 'AlegreyaRegular';
+  /* font-family: 'NowAltRegular'; */
+  font-family: 'OrkneyLight';
   font-size: 25px;
   font-weight: normal;
   font-style: normal;
