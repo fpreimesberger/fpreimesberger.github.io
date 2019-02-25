@@ -2,8 +2,8 @@
   display: grid;
   /* grid-template-columns: 8% 12% 12% 12% 12% 12% 12% 12% 8% ; */
   grid-template-columns: 8vw 12vw 12vw 12vw 12vw 12vw 12vw 12vw 8vw;
-  /* grid-template-rows: 20px 200px 300px 200px 700px 150px 500px 500px 20px; */
-  grid-template-rows: 5vh 25vh 45vh 25vh 30vh 100vh 20vh 100vh 10vh 60vh;
+  /* grid-template-rows: 20px 200px 300px 200px 700px 150px 650px 500px 20px; */
+  grid-template-rows: 5vh 25vh 45vh 25vh 20vh 100vh 30vh 135vh 10vh 60vh;
   position: relative;
   z-index: 10;
 }
@@ -102,15 +102,16 @@ body {
   z-index: 90;
 }
 .face {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
-  margin-top: 40px;
-  z-index: 1000;
+  margin-top: 140px;
+  z-index: 9000;
+  opacity: 1;
 }
 #contact ul{
   list-style: none;
@@ -147,28 +148,28 @@ body {
   fill:white;
 }
 .project-left-1 {
-  grid-row: 6;
+  grid-row: 8;
   grid-column: 3/5;
   height: 100vh;
   z-index: 1000;
 }
 .project-right-1 {
-  grid-row: 6;
+  grid-row: 8;
   grid-column: 6/8;
   height: 100vh;
   z-index: 1000;
 }
 
 .about-left {
-  grid-row: 8;
+  grid-row: 6;
   grid-column: 3/5;
   margin: 0 0 0 0;
 }
 .about-right {
-  grid-row: 8;
+  grid-row: 6;
   grid-column: 6/8;
   margin: 0 0 -50vh 0;
-  z-index: 2000;
+  z-index: 8000;
 }
 .contact-left {
   grid-column: 3/5;
@@ -359,6 +360,6 @@ p {
   color: #0d0d0d;
   font-family: 'OrkneyLight';
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 16.5px;
   padding: 0 0 0;
 }
