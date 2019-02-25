@@ -3,7 +3,7 @@
   /* grid-template-columns: 8% 12% 12% 12% 12% 12% 12% 12% 8% ; */
   grid-template-columns: 8vw 12vw 12vw 12vw 12vw 12vw 12vw 12vw 8vw;
   /* grid-template-rows: 20px 200px 300px 200px 700px 150px 650px 500px 20px; */
-  grid-template-rows: 5vh 25vh 45vh 25vh 20vh 100vh 30vh 135vh 10vh 60vh;
+  grid-template-rows: 5vh 25vh 45vh 25vh 30vh 100vh 30vh 135vh 10vh 60vh;
   position: relative;
   z-index: 10;
 }
