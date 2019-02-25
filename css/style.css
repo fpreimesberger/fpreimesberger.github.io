@@ -23,7 +23,7 @@ body {
   top: 0;
   margin: 0;
   background-color: #f2f2f2;
-  opacity: 0.80;
+  opacity: 0.93;
   z-index: 0;
 }
 @font-face {
@@ -306,7 +306,7 @@ svg {
 }
 
 h1 {
-  color: #0d0d0d;
+  color: #110609;
   font-family: 'OrkneyLight';
   font-weight:normal;
   font-size: 45px;
@@ -314,7 +314,7 @@ h1 {
   margin: 0 150px 50px;
 }
 h2 {
-  color: #0d0d0d;
+  color: #110609;
   font-family: 'AlegreyaRegular';
   font-weight:normal;
   font-style: normal;
@@ -323,7 +323,7 @@ h2 {
   margin: 50px 150px 0;
 }
 h3 {
-  color: #1a1a1a;
+  color: #110609;
   font-family: 'NowAltRegular';
   font-weight:normal;
   font-style: normal;
@@ -333,7 +333,7 @@ h3 {
   text-orientation: upright;
 }
 h4 {
-  color: #0d0d0d;
+  color: #110609;
   /* font-family: 'AlegreyaRegular'; */
   font-family: 'OrkneyLight';
   font-size: 35px;
@@ -342,7 +342,7 @@ h4 {
   margin: 25px 0 0;
 }
 h5 {
-  color: #0d0d0d;
+  color: #110609;
   font-family: 'OrkneyLight';
   font-weight: lighter;
   font-size: 30px;
@@ -352,12 +352,13 @@ h5 {
 a {
   text-decoration: none;
 }
+
 a:visited {
-  text-decoration-color: #0d0d0d;
-  color: #0d0d0d;
+  text-decoration-color: #5e0529;
+  color: #5e0529;
 }
 p {
-  color: #0d0d0d;
+  color: #110609;
   font-family: 'OrkneyLight';
   font-weight: lighter;
   font-size: 16.5px;
