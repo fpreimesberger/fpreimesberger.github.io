@@ -1,7 +1,7 @@
 .everything {
   display: grid;
   grid-template-columns: 8vw 12vw 12vw 12vw 12vw 12vw 12vw 12vw 8vw;
-  grid-template-rows: 5vh 25vh 45vh 25vh 12.5vh 100vh 10vh 30vh 135vh 10vh 60vh;
+  grid-template-rows: 5vh 25vh 45vh 25vh 12.5vh 85vh 10vh 27vh 100vh 20vh 50vh;
   position: relative;
   z-index: 10;
 }
@@ -21,7 +21,7 @@ body {
   top: 0;
   margin: 0;
   background-color: #f2f2f2;
-  opacity: 0.93;
+  opacity: 0.98;
   z-index: 0;
 }
 @font-face {
